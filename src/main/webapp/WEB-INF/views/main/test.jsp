@@ -3,11 +3,17 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>PHOTOBOOK</title>
+
+<!-- css -->
+
+
 </head>
 <body>
 
-<h2> PHOTOBOOK </h2>
+<!-- header -->
+<h1> PHOTOBOOK </h1>
+
 
 
 </body>
