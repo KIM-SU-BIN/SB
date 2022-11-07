@@ -1,12 +1,19 @@
 package com.javaex.controller;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
 public class MainController {
 
-	public static void main(String[] args) {
+	// 창띄우기
+	@RequestMapping(value = "/", method = { RequestMethod.GET, RequestMethod.POST })
+	public String test() {
 
+		System.out.println("testController");
+
+		return "main/test";
 	}
 
 }
