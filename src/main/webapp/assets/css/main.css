@@ -9,7 +9,7 @@ h1{
 }
 
 /********************** image **********************/
-.photo_uploaded_wrap .photo_uploaded_1 img{
+.photo_uploaded_wrap img{
 	height: 200px;
 	width: 150px;
 }
