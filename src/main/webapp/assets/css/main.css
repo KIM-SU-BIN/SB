@@ -1,15 +1,60 @@
 @charset "UTF-8";
 
 /********************** 전체 **********************/
-#wrap {max-width:1200px;}
+.all_wrap {max-width:1500px;}
 
 
 h1{
 	color: maroon;
+	font-size: 40px;
+	text-align: center;
+}
+
+/********************** search **********************/
+.search_box {
+	float: right;
+	margin-left: 10px;
+}
+
+/********************** button **********************/
+/* search */
+.search_btn {
+	border-style: none;
+}
+
+/* photo */
+.photo_button {
+	text-align: right;
+}
+
+.photo_btn {
+	border-style: dashed;
+	border-width: 0.5mm;
+	background-color: #f4a4a4;	
+}
+
+/* category */
+.category_btn_all {
+	position: relative;
+	top: 30px;
+}
+
+/********************** category **********************/
+.category {
+	width: 10%;
+	float: right;
+	margin: auto;
+	padding-right: 40px;
 }
 
 /********************** image **********************/
-.photo_uploaded_wrap img{
-	height: 200px;
-	width: 150px;
+.photo_uploaded {
+	margin: auto;
+	padding: 10px 20px;
+}
+
+.photo_uploaded_wrap img {
+	height: 250px;
+	width: 200px;
+	padding: 15px;
 }
