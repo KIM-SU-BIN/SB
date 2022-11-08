@@ -39,6 +39,11 @@ h1{
 	top: 30px;
 }
 
+#category_btn {
+	background-color: #f4a4a4;		
+	border-style: dashed;
+	border-width: 0.5mm;	
+}
 /********************** category **********************/
 .category {
 	width: 10%;
